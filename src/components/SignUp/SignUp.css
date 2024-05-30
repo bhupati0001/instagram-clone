@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica;
+}
+a {
+  text-decoration: none;
+  color: rgb(81, 156, 241);
+  font-weight: 500;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c5c4c4;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.logo button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+}
+button span {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#main-logo {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.logo button img {
+  width: 25px;
+  height: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.signup-form input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.disclaimer p.learn-more {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+.disclaimer .term-and-condition {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+}
+.signup-button {
+  width: 100%;
+}
+.signup-button button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-container {
+  text-align: center;
+  border: 1px solid #c5c4c4;
+  margin-top: 10px;
+}
+.login-container p {
+  padding: 10px;
+}
+.login-container p a {
+  color: blue;
+}
+.get-app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.app-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
